@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>select(bf) - Setup</title>
+<link rel="stylesheet" href="templates/default/include/style.css" type="text/css">
+</head>
+<body>
+<table width="95%" border="1" align="center">
+  <tr class="head">
+    <th class="super" scope="col">Setup 0.3b</th>
+  </tr>
+  <tr>
+    <td class=admin>
+  <tmpl_if name="msg">
+  <table class=navbar width=300>
+   <tr class=head>
+    <th><img src="templates/default/images/icon_message.gif" align=absmiddle hspace=2> Notice</th>
+   </tr>
+   <tr>
+    <td class=admin>
+     <tmpl_var name="msg" escape="none">
+     <p>
+    </td>
+   </tr>
+  </table>
+  <p>
+  <tmpl_else>
+  <tmpl_if name="error">
+  <table class=navbar width=300>
+   <tr class=axis>
+    <th><img src="templates/default/images/icon_error.gif" align=absmiddle hspace=2> Error</th>
+   </tr>
+   <tr>
+    <td class=admin>
+     <tmpl_var name="error" escape="none">
+     <p>
+    </td>
+   </tr>
+  </table>
+  <tmpl_else>
+      <b>Welcome</b> to the <b>select(<i>bf</i>)</b>-Setup!<br>
+      There are two ways to get the needed Tables into your database:
+  </tmpl_if> 
+  </tmpl_if> 
+  <tmpl_if name='done'>
+      <b>Please</b>, klick <a href="index.php">here</a> to continue to your stats!<br>
+      And <b>don't forget</b> to remove the <i>_setup.php</i> from your webserver!!<p>
+  </tmpl_if>      
+    </td>
+  </tr>
+  
+  <tr class=darker>
+    <th>from scratch</th
+  ></tr>
+  <form action="_setup.php" method=post>
+  <input type="hidden" name=todo value=scratch>
+  <tr> 
+    <td class=admin>Use this method, if you want to install <b>select(<i>bf</i>)</b> into a new Database that doesn't contain any tables yet. <i>(recommended)</i><p>
+    <b>PLEASE NOTE:</b> If you already have a 0.3 release running you don't have to do anything. Simply exchange the PHP-pages (be sure to keep your templates) and the Parser!
+    </td>
+  </tr>
+  <tr>
+    <td class=admin>
+      <b>Please</b> choose your access information for the Admin-Mode:<br>
+      <table class=navbar>
+        <tr>
+          <td class=admin_clear>Admin-Password:</td>
+          <td class=admin_clear><input type=password name=password {tmpl_if name='done'}disabled{/tmpl_if}></td>
+        </tr>
+        <tr>
+          <td class=admin_clear>Confirm:</td>
+          <td class=admin_clear><input type=password name=confirm {tmpl_if name='done'}disabled{/tmpl_if}></td>    
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class=admin><input type=submit value="install datamodell" {tmpl_if name='done'}disabled{/tmpl_if}></td>    
+  </tr>   
+  </form>
+  <tr class=darker>
+    <th>update from 0.2c</th
+  ></tr>  
+  <tr>
+    <td class=admin>Use this method, if you already have an old data-modell of <b>select(<i>bf</i>)</b> in your database.<p>
+      <table class=navbar width=100%>
+        <tr class=axis>
+          <th><img src="templates/default/images/icon_error.gif" align=absmiddle hspace=2> Warning</th>
+        </tr>
+        <tr>
+          <td class=admin>
+            There are new features in the <b>0.3</b>-release that need the
+            new parser to add specific information to your database. When you
+            update the 0.2c datamodell to 0.3 than you of course keep the old
+            data. <b>BUT</b> you'll have to deal with the following conditions:
+            <ul>
+              <li>every kind of data that are new in 0.3 <b>will not</b> be available for your old data (playtimes, etc.)</li>
+              <li>your stats will <b>not show</b> any information, until you parsed some files with the 0.3 parser. This is because the parser has to cache some data which are used in the new PHPs to build up the ranking!</li>
+              <li>The types of lots of fields in the tables have been changed for more speed. These changes <b>will not</b> be applied to your datamodell.</li>
+              <li>you'll <b>not be able</b> to login into your 0.2c Admin-Mode anymore, using you old pages. The password has been encrypted in 0.3 and 0.2c cannot deal with that.</li>
+            </ul>
+            Anyway, the worst that could happen is that <b>select(<i>bf</i>)</b> will not work correctly.
+          </td>
+        </tr>
+      </table>
+      <p>      
+    </td>
+  </tr>
+  <form action="_setup.php" method=post>
+  <input type="hidden" name="todo" value="update">
+  <tr>
+    <td class=admin>
+      <input type="submit" value="update datamodell" {tmpl_if name='done'}disabled{/tmpl_if}>
+    </td>
+  </tr>
+  </form>
+  <tr class=darker>
+    <th>remove <b>select(<i>bf</i>)</b> from the database</th
+  ></tr> 
+  <form action="_setup.php" method=post>   
+  <input type="hidden" name="todo" value="reset">
+  <tr>
+    <td class=admin>Use this button to completely remove the <b>select(<i>bf</i>)</b>-datamodell from your database.<br>This will also <b>delete</b> all data!</td>
+  </tr>  
+  <tr>
+    <td class=admin><input type="checkbox" name="sure" value="true" {tmpl_if name='deleted'}disabled{/tmpl_if}> I'm sure</td>
+  </tr>
+  <tr>
+    <td class=admin><input type="checkbox" name="reallysure" value="true" {tmpl_if name='deleted'}disabled{/tmpl_if}> I'm really sure</td>
+  </tr>  
+  <tr>
+    <td><input type="submit" value="remove the datamodell" {tmpl_if name='deleted'}disabled{/tmpl_if}></td>
+  </tr>    
+  </form>
+</table> 
+<br>
+<center>generated by <a href="http://www.selectbf.org">select(bf)</a></center>
+<center>licensed under conditions of the <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank">GeneralPublicLicense (GPL)</a></center>
+</body>
+</html>

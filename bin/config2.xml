@@ -1,0 +1,33 @@
+
+<selectbf-config>
+ <!--DATABASE CONFIGURATION-->
+<database user="alfjalkjadflk" password="alkdfjalkjfalkj" database="afdlkfjaldkj" port="3306">aldkfjalkdjalkj</database>
+
+<!--FILE MANAGEMENT-->
+<after-parsing>delete</after-parsing>
+<after-download>true</after-download>
+<delete-decompressed-xml-files>true</delete-decompressed-xml-files>
+<rename-at-error>true</rename-at-error>
+
+ <!--DATA MANAGEMENT-->
+ <log-bots>false</log-bots>
+ <trim-database days="5" keep-players="false">false</trim-database>
+
+ <!--OTHER STUFF-->
+ <consistency-check></consistency-check>
+ <memory-safer></memory-safer>
+
+ <!--LOG SOURCES-->
+ <logs>
+  <dir live="false">include("../cache/config.php");</dir>
+  <dir live="false">include("../cache/config.php");</dir>
+  <dir live="false">include("../cache/config.php");</dir>
+  <dir live="false"></dir>
+  <dir live="false"></dir>
+  <dir live="false"></dir>
+  <ftp host="" user=$ftpusername1 password="" live="">/mods/dc_extended/logs</ftp>
+  <ftp host="" user=$ftpusername2 password="" live="false">/mods/DesertCombat/logs</ftp>
+  <ftp host="" user=$ftpusername3 password="" live="false">/mods/DesertCombat/logs</ftp>
+ </logs>
+</selectbf-config>
+

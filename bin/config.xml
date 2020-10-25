@@ -1,0 +1,29 @@
+<selectbf-config>
+ <!--DATABASE CONFIGURATION-->
+ <database user="tswn" password="tswn@TOK6000_mysql_svr" database="xoops_tswn_2k4" port="3306">127.0.0.1</database>
+ 
+ <!--FILE MANAGEMENT-->
+ <after-parsing>delete</after-parsing>
+ <after-download>rename</after-download>
+ <delete-decompressed-xml-files>true</delete-decompressed-xml-files>
+ <rename-at-error>true</rename-at-error>
+ 
+ <!--DATA MANAGEMENT-->
+ <log-bots>true</log-bots>
+ <trim-database days="5" keep-players="true">false</trim-database>
+ 
+ <!--OTHER STUFF-->
+ <consistency-check>true</consistency-check>
+ <memory-safer>true</memory-safer>
+ 
+ <!--LOG SOURCES-->
+ <logs>
+  <dir live="true">E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs</dir>
+  <dir live="true">E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs</dir>
+  <dir live="true">E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs</dir>
+  <dir live="true">E:\Program Files\EA GAMES\BF1942_SERVER\Mods\BF1942\Logs</dir>
+    <dir live="true">E:\Program Files\EA GAMES\BFVIETNAM_SERVER\Mods\BFVIETNAM\Logs</dir>
+  <ftp host="127.0.0.1" user="talunceford" password="fearthis_1973" live="false">/mods/dc_extended/logs</ftp>
+  <ftp host="127.0.0.1" user="talunceford" password="fearthis_1973" live="false">/mods/DesertCombat/logs</ftp>
+ </logs>
+</selectbf-config>

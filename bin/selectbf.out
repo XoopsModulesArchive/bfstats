@@ -1,0 +1,363 @@
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: xoops_tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+-> processing File 'ev_14567-20040302_1014.xml' (1/108) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040302_1014.zxml -> processing File 'ev_14567-20040302_1014.xml' (2/108) PROBLEM with the database: java.sql.SQLException: Invalid authorization specification: Access denied for user: 'xoops_tswn@127.0.0.1' (Using password: YES) - Please check you config!
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+-> processing File 'ev_14567-20040207_2058.xml' (1/221) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040207_2058.zxml -> processing File 'ev_14567-20040207_2058.xml' (2/221) PROBLEM with the database: java.sql.SQLException: Invalid authorization specification: Access denied for user: 'xoops_tswn@127.0.0.1' (Using password: YES) - Please check you config!
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+
+================================================
+FATAL ERROR
+------------------------------------------------
+An unexpected circumstance prevented the Parser
+from continuing his work.
+Please report this error and a COPY-PASTE of the
+following to selectbf@s-h-i-n-y.com OR BETTER
+in the forums at http://www.selectbf.org, Thanks!
+java.sql.SQLException: Invalid authorization specification: Access denied for user: 'xoops_tswn@127.0.0.1' (Using password: YES)
+StackTrace:
+com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:659)
+com.mysql.jdbc.Connection.createNewIO(Connection.java:1562)
+com.mysql.jdbc.Connection.<init>(Connection.java:491)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:346)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+org.selectbf.DatabaseCacher.<init>(Unknown Source)
+org.selectbf.SelectBf.main(Unknown Source)
+If you want to help even more, also supply a
+copy of the Log-File that triggered this error.
+================================================
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+-> processing File 'buffer.xml' (1/109) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040302_1014.zxml -> processing File 'ev_14567-20040302_1014.xml' (2/109) ERROR This file has LOGIC issues: java.io.FileNotFoundException: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040302_1014.xml (The system cannot find the file specified) SKIPPED FINISHED
+-> processing File 'ev_14567-20040302_1052.xml' (3/109)
+================================================
+FATAL ERROR
+------------------------------------------------
+An unexpected circumstance prevented the Parser
+from continuing his work.
+Please report this error and a COPY-PASTE of the
+following to selectbf@s-h-i-n-y.com OR BETTER
+in the forums at http://www.selectbf.org, Thanks!
+java.io.FileNotFoundException: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040302_1052.xml (The system cannot find the file specified)
+StackTrace:
+java.io.FileInputStream.open(Native Method)
+java.io.FileInputStream.<init>(Unknown Source)
+java.io.FileReader.<init>(Unknown Source)
+org.selectbf.DataConsistencyChecker.checkAndCorrect(Unknown Source)
+org.selectbf.SelectBf.logFile(Unknown Source)
+org.selectbf.SelectBf.logFilesInDir(Unknown Source)
+org.selectbf.SelectBf.main(Unknown Source)
+If you want to help even more, also supply a
+copy of the Log-File that triggered this error.
+================================================
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+-> processing File 'ev_14567-20040207_2058.xml' (1/221) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040207_2058.zxml -> processing File 'ev_14567-20040207_2058.xml' (2/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_0241.zxml -> processing File 'ev_14567-20040208_0241.xml' (3/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_0517.zxml -> processing File 'ev_14567-20040208_0517.xml' (4/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_0744.zxml -> processing File 'ev_14567-20040208_0744.xml' (5/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_0915.zxml -> processing File 'ev_14567-20040208_0915.xml' (6/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_1536.zxml -> processing File 'ev_14567-20040208_1536.xml' (7/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_1804.zxml -> processing File 'ev_14567-20040208_1804.xml' (8/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_2032.zxml -> processing File 'ev_14567-20040208_2032.xml' (9/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040208_2210.zxml -> processing File 'ev_14567-20040208_2210.xml' (10/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_0331.zxml -> processing File 'ev_14567-20040209_0331.xml' (11/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_0559.zxml -> processing File 'ev_14567-20040209_0559.xml' (12/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_0832.zxml -> processing File 'ev_14567-20040209_0832.xml' (13/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_0944.zxml -> processing File 'ev_14567-20040209_0944.xml' (14/221) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_0944.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 41071 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/DesertCombat/Logs/ev_14567-20040209_0944.xml: Use "&lt;" for "<" in attribute values. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040209_2005.zxml -> processing File 'ev_14567-20040209_2005.xml' (15/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_0121.zxml -> processing File 'ev_14567-20040210_0121.xml' (16/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_0343.zxml -> processing File 'ev_14567-20040210_0343.xml' (17/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_0614.zxml -> processing File 'ev_14567-20040210_0614.xml' (18/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_0707.zxml -> processing File 'ev_14567-20040210_0707.xml' (19/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_1231.zxml -> processing File 'ev_14567-20040210_1231.xml' (20/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_1503.zxml -> processing File 'ev_14567-20040210_1503.xml' (21/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_1729.zxml -> processing File 'ev_14567-20040210_1729.xml' (22/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040210_1852.zxml -> processing File 'ev_14567-20040210_1852.xml' (23/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_0012.zxml -> processing File 'ev_14567-20040211_0012.xml' (24/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_0255.zxml -> processing File 'ev_14567-20040211_0255.xml' (25/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_0521.zxml -> processing File 'ev_14567-20040211_0521.xml' (26/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_0637.zxml -> processing File 'ev_14567-20040211_0637.xml' (27/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_1154.zxml -> processing File 'ev_14567-20040211_1154.xml' (28/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_1429.zxml -> processing File 'ev_14567-20040211_1429.xml' (29/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_1651.zxml -> processing File 'ev_14567-20040211_1651.xml' (30/221) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_1651.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 24569 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/DesertCombat/Logs/ev_14567-20040211_1651.xml: Expected "</bf:teamtickets>" to terminate element starting on line 24,568. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2115.zxml -> processing File 'ev_14567-20040211_2115.xml' (31/221) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2115.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/DesertCombat/Logs/ev_14567-20040211_2115.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2122.zxml -> processing File 'ev_14567-20040211_2122.xml' (32/221) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2122.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/DesertCombat/Logs/ev_14567-20040211_2122.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2134.zxml -> processing File 'ev_14567-20040211_2134.xml' (33/221) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040211_2328.zxml -> processing File 'ev_14567-20040211_2328.xml' (34/221)select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1517.zxml -> processing File 'ev_14567-20040310_1517.xml' (1/1) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.25 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.046 sec)
+-> Caching 'Weapon Kills' FINISHED (0.016 sec)
+-> Caching 'Player Ranking' FINISHED (0.188 sec)
+-> Caching 'Map Statistics' FINISHED (0.953 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1517.zxml -> processing File 'ev_14567-20040310_1517.xml' (1/2) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1843.zxml -> processing File 'ev_14567-20040310_1843.xml' (2/2) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.031 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.031 sec)
+-> Caching 'Weapon Kills' FINISHED (0.032 sec)
+-> Caching 'Player Ranking' FINISHED (0.047 sec)
+-> Caching 'Map Statistics' FINISHED (0.828 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1517.zxml -> processing File 'ev_14567-20040310_1517.xml' (1/2) FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1843.zxml -> processing File 'ev_14567-20040310_1843.xml' (2/2) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040310_1942.zxml -> processing File 'ev_14567-20040310_1942.xml' (1/1) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.032 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.062 sec)
+-> Caching 'Weapon Kills' FINISHED (0.047 sec)
+-> Caching 'Player Ranking' FINISHED (0.047 sec)
+-> Caching 'Map Statistics' FINISHED (0.922 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040310_1843.zxml -> processing File 'ev_14567-20040310_1843.xml' (1/1) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040310_1942.zxml -> processing File 'ev_14567-20040310_1942.xml' (1/1) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.047 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.078 sec)
+-> Caching 'Weapon Kills' FINISHED (0.032 sec)
+-> Caching 'Player Ranking' FINISHED (0.156 sec)
+-> Caching 'Map Statistics' FINISHED (0.922 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2104.zxml -> processing File 'ev_14567-20040311_2104.xml' (1/4) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2104.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2104.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2126.zxml -> processing File 'ev_14567-20040311_2126.xml' (2/4) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2126.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2126.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2128.zxml -> processing File 'ev_14567-20040311_2128.xml' (3/4) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2128.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2128.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2133.zxml -> processing File 'ev_14567-20040311_2133.xml' (4/4) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040311_1518.zxml -> processing File 'ev_14567-20040311_1518.xml' (1/2) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040311_1518.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/DesertCombat/Logs/ev_14567-20040311_1518.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040312_1423.zxml -> processing File 'ev_14567-20040312_1423.xml' (2/2) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2145.zxml -> processing File 'ev_14567-20040213_2145.xml' (1/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2145.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2145.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2152.zxml -> processing File 'ev_14567-20040213_2152.xml' (2/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2152.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2152.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2153.zxml -> processing File 'ev_14567-20040213_2153.xml' (3/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2153.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2153.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2154.zxml -> processing File 'ev_14567-20040213_2154.xml' (4/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2154.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2154.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040214_0359.zxml -> processing File 'ev_14567-20040214_0359.xml' (5/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040214_0359.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 20797 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040214_0359.xml: Use "&lt;" for "<" in attribute values. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1124.zxml -> processing File 'ev_14567-20040215_1124.xml' (6/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1124.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040215_1124.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1153.zxml -> processing File 'ev_14567-20040215_1153.xml' (7/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1153.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040215_1153.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040308_1644.zxml -> processing File 'ev_14567-20040308_1644.xml' (8/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040308_1644.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040308_1644.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040310_1336.zxml -> processing File 'ev_14567-20040310_1336.xml' (9/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040310_1336.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040310_1336.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040311_0906.zxml -> processing File 'ev_14567-20040311_0906.xml' (10/11) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040311_0906.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040311_0906.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040312_1532.zxml -> processing File 'ev_14567-20040312_1532.xml' (11/11) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.047 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.078 sec)
+-> Caching 'Weapon Kills' FINISHED (0.031 sec)
+-> Caching 'Player Ranking' FINISHED (0.188 sec)
+-> Caching 'Map Statistics' FINISHED (1.375 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------
+select(bf) 0.3b - A Battlefield XML Log File Parser
+----------------------------------------------------
+Copyright (C) 2003  Tim Adler
+Published under GPL http://www.gnu.org/licenses/gpl.txt
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Available at http://www.selectbf.org
+----------------------------------------------------
+Using Database-Config as follows:
+xoops_tswn_2k4@127.0.0.1:3306
+User: tswn  Password:tswn@TOK6000_mysql_svr
+---------------------------------------------------
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2104.zxml -> processing File 'ev_14567-20040311_2104.xml' (1/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2104.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2104.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2126.zxml -> processing File 'ev_14567-20040311_2126.xml' (2/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2126.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2126.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2128.zxml -> processing File 'ev_14567-20040311_2128.xml' (3/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2128.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2128.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2133.zxml -> processing File 'ev_14567-20040311_2133.xml' (4/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040311_2133.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040311_2133.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_0823.zxml -> processing File 'ev_14567-20040317_0823.xml' (5/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_0823.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040317_0823.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_1959.zxml -> processing File 'ev_14567-20040317_1959.xml' (6/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_1959.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040317_1959.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_2239.zxml -> processing File 'ev_14567-20040317_2239.xml' (7/8) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040317_2239.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 21029 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/dc_extended/Logs/ev_14567-20040317_2239.xml: Use "&lt;" for "<" in attribute values. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\dc_extended\Logs\ev_14567-20040318_0300.zxml -> processing File 'ev_14567-20040318_0300.xml' (8/8) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\DesertCombat\Logs\ev_14567-20040311_1518.zxml -> processing File 'ev_14567-20040311_1518.xml' (1/1) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+Logs-Directory: E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2145.zxml -> processing File 'ev_14567-20040213_2145.xml' (1/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2145.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2145.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2152.zxml -> processing File 'ev_14567-20040213_2152.xml' (2/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2152.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2152.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2153.zxml -> processing File 'ev_14567-20040213_2153.xml' (3/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2153.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2153.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2154.zxml -> processing File 'ev_14567-20040213_2154.xml' (4/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040213_2154.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040213_2154.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040214_0359.zxml -> processing File 'ev_14567-20040214_0359.xml' (5/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040214_0359.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 20797 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040214_0359.xml: Use "&lt;" for "<" in attribute values. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1124.zxml -> processing File 'ev_14567-20040215_1124.xml' (6/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1124.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040215_1124.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1153.zxml -> processing File 'ev_14567-20040215_1153.xml' (7/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040215_1153.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040215_1153.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040308_1644.zxml -> processing File 'ev_14567-20040308_1644.xml' (8/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040308_1644.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040308_1644.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040310_1336.zxml -> processing File 'ev_14567-20040310_1336.xml' (9/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040310_1336.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040310_1336.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040311_0906.zxml -> processing File 'ev_14567-20040311_0906.xml' (10/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040311_0906.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040311_0906.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040312_1952.zxml -> processing File 'ev_14567-20040312_1952.xml' (11/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040312_1952.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040312_1952.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040315_0117.zxml -> processing File 'ev_14567-20040315_0117.xml' (12/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040315_0117.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040315_0117.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040315_1458.zxml -> processing File 'ev_14567-20040315_1458.xml' (13/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040315_1458.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040315_1458.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040316_1846.zxml -> processing File 'ev_14567-20040316_1846.xml' (14/15) ERROR  Data-structure of E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040316_1846.xml CORRUPT:org.jdom.input.JDOMParseException: Error on line 1 of document file:/E:/Program Files/EA GAMES/BF1942_SERVER/Mods/FH/Logs/ev_14567-20040316_1846.xml: Document root element is missing. - SKIPPING FINISHED
+Decompressing E:\Program Files\EA GAMES\BF1942_SERVER\Mods\FH\Logs\ev_14567-20040317_0457.zxml -> processing File 'ev_14567-20040317_0457.xml' (15/15) NEWEST FILE - LIVE is set -> Probably under server-access - SKIPPING FINISHED
+---DONE---
+There is no dir 'E:\Program Files\EA GAMES\BF1942_SERVER\Mods\BF1942\Logs' - SKIPPING
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+[FTP] Connecting to 127.0.0.1
+[FTP] Couldn't connect to 127.0.0.1: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+-----------------PRECACHING DATA-----------------
+Please wait this takes a while 
+-> Caching 'Character-Type Usage' FINISHED (0.047 sec)
+-> Caching 'Vehicle Usage' FINISHED (0.078 sec)
+-> Caching 'Weapon Kills' FINISHED (0.031 sec)
+-> Caching 'Player Ranking' FINISHED (0.234 sec)
+-> Caching 'Map Statistics' FINISHED (2.235 sec)
+---------------------------------------------------
+Process FINISHED
+Thx for using select(bf)!
+---------------------------------------------------

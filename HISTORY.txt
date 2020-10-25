@@ -1,0 +1,73 @@
+select(bf) Changelog
+
+05.November 2003 - select(bf)-0.3b
+& several bugfixes that came up with 0.3
++ consitency checker for log files that corrects basic errors
++ little memory safer
++ remove player and round functionality for PHP
+
+
+20.October 2003 - select(bf)-0.3
+-----------------------------------
+& fixed several issues and smaller bugs
++ FTP support
++ templatability
++ database-limit by days
++ custom weapon stats 
++ clear-text administration
++ map-stats
++ server-usage stats
++ vehicle-usage stats
++ character-types usage
+
+
+18.September 2003 - select(bf)-0.2c
+-----------------------------------
+
+& fixed issue with changing player-ids during a round that could account events for wrong players
+& fixed issue with wrong timestamps for games on NON-EUROPEAN systems
++ config-file option for Renaming at Error
++ config-file option for Live-Server Log Dirs
+
+
+02.September 2003 - select(bf)-0.2b
+-----------------------------------
+
+& fixed issue with 1.45 patch, which changed the XML-Namespace under Linux Server
+  select(bf) will handle every Namespace-Change from now on
+& some more bugfixes (keep that FATAL ERRORS coming, they help finding everything I didn't think about)
+
+
+28.August 2003 - select(bf)-0.2a
+--------------------------------
+
+& Stars in Round-stats fixed 
+& username and dbname can be different now
++ Speed-Up of first page (award-counting) done 
++ File-handling after parsing (delete, rename, remain) finished 
++ Admin Mode 
++ Bot exclusion  
+
+
+20.August 2003 - select(bf)-0.15a
+---------------------------------
+
+& Fixed bug that caused too few players to be registered and accounted several events to wrong players
+  (if you want clean data, please reparse with this new version)
++ Made PHP-pages sub-dir usable
++ reworked the game-stats page a little bit
+
+
+19.August 2003 - select(bf)-0.1b
+--------------------------------
+
+& Fixed bug that eventually made the parser crash, when one round was valid but the following got canceled
+- "Points" from Playeranking, rather inserted a K/D rate
++ "Top Assassins"-Table to Player-Stats
++ Linux/Unix run-scripts (thx to Fisch.666 who tested the whole thing under Linux)
+
+
+16.August 2003 - select(bf)-0.1a
+--------------------------------
+
+initial release

@@ -1,0 +1,36 @@
+<html>
+<head>
+<title><tmpl_var name="TITLE"></title>
+<link rel="stylesheet" href="{tmpl_var name='CSS'}" type="text/css">
+</head>
+<body>
+<table width="85%" border="1" align="center">
+  <tr class="head">
+    <th colspan="12" class="super" scope="col">Server-Information</th>
+  </tr>
+  <tr>
+   <td width=150 valign="top"><img src="{tmpl_var name='IMAGES_DIR'}s(bf)-logo_red.jpg"></td>
+    <td width=100%> <p>Welcome to www.tswn.com / T.S.W.N. server stats page. If 
+        you have played on our server then your individual stats will be shown 
+        here.</p>
+      <p>All Stats are updated on the hour, every hour.</p></td>
+</table>
+<p>
+<table class=buttonmenu width=85% align=center>
+  <tr>
+     <td class=contextbar colspan=15><b>Navigation</b>
+    <tmpl_loop name="CONTEXTBAR">
+       <img src="{tmpl_var name='IMAGES_DIR'}arrow_right.gif">
+       <tmpl_if name="link"><a href="{tmpl_var name='link'}" class=white></tmpl_if>
+       <tmpl_var name="name">
+       <tmpl_if name="link"></a></tmpl_if>
+    </tmpl_loop>
+    </td>
+  </tr>
+  <tr>
+    <tmpl_loop name="NAVBAR">
+     <td width=16% class=buttonInActive onClick="javascript: window.location.href='{tmpl_var name='link'}';" onMouseOver="this.className='buttonActive'; this.style.cursor='hand';" onMouseOut="this.className='buttonInActive';"><a href="{tmpl_var name='link'}" class=button><tmpl_var name='name'></a></td>
+    </tmpl_loop>
+  </tr>
+</table>
+<p>
